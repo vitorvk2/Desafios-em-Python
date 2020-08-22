@@ -1,0 +1,18 @@
+print(' ')
+print ('Experimentos')
+print(' ')
+
+s = input('Digite algo:')
+print(' ')
+
+print('Isso é Número?',s.isalnum())
+print('Isso é Letra?',s.isalpha())
+print('Isso é Decimal?',s.isdecimal())
+print('Isso é um Dúgito?',s.isdigit())
+print ('Isso é Identificador?',s.isidentifier())
+print ('Isso é Mais Baixo?', s.islower())
+print ('Isso é Numerico?',s.isnumeric())
+print ('Isso é Imprimível?', s.isprintable())
+print ('Isso é Espaço?', s.isspace())
+print ('Isso é Título?', s.istitle())
+print ('Isso é ??', s.isupper())
