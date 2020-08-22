@@ -7,6 +7,6 @@ except urllib.error.URLError:
     print('erro')
 else:
     print('Tudo Ok')
-    print(site.read()) #ler o site
+    print(site.read()) #ler o site na loucura!
 
 
